@@ -9,7 +9,8 @@ namespace GuardClausesInASPNETCore
         public DateTime? OrderDate { get; set; }
         public Order(string customerEmail, string? orderNumber, DateTime? orderData)
         {
-            CustomerEmail = Guard.Against.NullOrEmpty(customerEmail, nameof(customerEmail), "Customer email address cannot be null or empty.");
+            //CustomerEmail = Guard.Against.InvalidEmailAddress(customerEmail, nameof(customerEmail));
+            CustomerEmail = Guard.Against.InvalidEmailAddressWithCustomEmailSuffix(customerEmail,".dev" ,nameof(customerEmail));
             OrderNumber = orderNumber;
             OrderDate = orderData;
         }

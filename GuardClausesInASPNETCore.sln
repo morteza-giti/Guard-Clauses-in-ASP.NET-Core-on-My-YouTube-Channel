@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardClausesInASPNETCore", "GuardClausesInASPNETCore\GuardClausesInASPNETCore.csproj", "{4AE2E000-A15F-4127-B434-6683A490DFEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardClausesInASPNETCore.Tests", "GuardClausesInASPNETCore.Tests\GuardClausesInASPNETCore.Tests.csproj", "{ED1FC534-620D-4784-9BFC-8CB744C622DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4AE2E000-A15F-4127-B434-6683A490DFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AE2E000-A15F-4127-B434-6683A490DFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AE2E000-A15F-4127-B434-6683A490DFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1FC534-620D-4784-9BFC-8CB744C622DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1FC534-620D-4784-9BFC-8CB744C622DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1FC534-620D-4784-9BFC-8CB744C622DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1FC534-620D-4784-9BFC-8CB744C622DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
